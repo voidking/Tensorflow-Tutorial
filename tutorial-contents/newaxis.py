@@ -7,3 +7,6 @@ print(x_data)
 print(x_data[np.newaxis,:])
 print(x_data[:,np.newaxis])
 print(np.transpose(x_data))
+
+print(tf.zeros([1, 10]))
+print(tf.random_normal([784, 10]))
